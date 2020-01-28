@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<link rel="stylesheet" type="text/css" href="resumeStyle.css">
+</head>
+
+<body>
+<div class="WholeContainer">
+
+<div id="SideNav" class="sidenavi">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size:60px"><div style="Color: White">&times;</div></a>
+	<a href="index.html">Resume</a>
+	<a href="Sovereign.html">SOVEREIGN:<br><div style="font-size: 12px;">Beneath Stone Shadows</div></a>
+	<a href="Shift.html">Asteroid//Shift</a>
+	<a href="Taco.html">Tacopocalypse</a>
+	
+</div>
+
+<span style="cursor:pointer;" onclick="openNav()"><img src="Images/Hamburger.png"></span>
+
+<script>
+function openNav() {
+  document.getElementById("SideNav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("SideNav").style.width = "0";
+}
+</script>
+</br>
+
+
+
+<div class="MainContainer">
+<div class="MarginMain">
+<div id="Title">
+
+<img src="Images/Shift.png" width=200 height=200>
+</div>
+<h1>Asteroid//Shift</h1>
+
+
+
+<div style="margin-left: 10px;">
+<p style="width:65%;">Asteroid//Shift is a fast-paced 1-4 player FPS that takes place in space. This is a quick round based game were the gravity can switch at any moment! All of your projectiles bounce off the walls, increasing in speed each time it happens. Don't get hit by your own shot when it comes back at you!</p>
+
+<p style="width:65%;">This project has been so fun to work on. I've built all the features in the game, as well as the .net framework! Everything from Gravity Flipping, Game Physics, level design & sounds. I've learned so much from making this project.</p>
+
+<p style="width: 65%;">Everything you see below is in ALPHA and I am very proud of everything I've done! Just know that it is a work in progress and will continue to be improved as I learn more!</p>
+</div>
+
+<h2>Screenshots!</h2>
+
+<div id="ScreenShotFlexs">
+<div class="flex-container">
+	<div><img src="Images/Shift1.png" class="Screenshots"></div>
+	<div><img src="Images/Shift2.png" class="Screenshots"></div>
+</div>
+
+<div class="flex-container">
+	<div><img src="Images/Shift3.png" class="Screenshots"></div>
+	
+</div>
+</div>
+
+
+<h2>In-Game Audio Examples</h2>
+
+<div class="flex-container">
+	<div>
+		<h3>Energy Gun Firing Sound</h3>
+		<audio controls>
+			<source src="Sounds/EnergyGun.wav" type="audio/wav">
+ 
+			Your browser does not support the audio element.
+		</audio>
+	</div>
+	<div>
+	<h3>Projectile Bounce Sound</h3>
+		<audio controls>
+			<source src="Sounds/Bounce.wav" type="audio/wav">
+			Your browser does not support the audio element.
+		</audio>
+	</div>
+</div>
+
+
+
+
+
+<div style="height: 100px;"></div>
+<a href="index.html"><div id="Btop" style="padding: 10px;float:right">Back to Top</div></a>
+</div>
+
+</div>
+
+
+</body>
+
+</html>
