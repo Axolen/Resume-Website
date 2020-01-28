@@ -144,7 +144,8 @@ a:hover {
 
 .flex-container {
 	display: flex;
-	width: 80%;
+	max-width: 80%;
+	min-width: 50%
 }
 
 .Screenshots {
