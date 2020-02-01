@@ -2,19 +2,22 @@
 body {
 	background-color: white;
 	background-image: url("Images/SpaceBackground.jpg");
-	margin-left: 3%;
-	font-family: Verdana;
+	
+	font-family: Roboto;
 }
 h1 {
 	color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 h2 {
 	color: black;
 	text-decoration: underline;
-	background-color: #FF8F5B;
-	border-radius: 2px;
-	padding: 10px;
-	
+	margin-right: 10px;
+	margin: 0px;
+	font-size: 20px;
+	background-color: #ff8533;
+	padding: 5px;
 }
 
 .Btop {
@@ -23,17 +26,44 @@ h2 {
 p{
 color: black;
 font-family: Verdana;
+	font-size: 14px;
+	margin-top: 4px;
 
 }
 ul {
 	color: black;
+	font-size: 14px;
+	margin: 5px;
+	font-family: verdana;
 }
 h3 {
 	color:black;
+	font-size: 18px;
+	margin-right: 10px;
+	margin-top: 1px;
 }
+.MarginH3{
+	margin-top:1px;
+	margin-right: 10px;
+	text-align: top;
+	min-width: 130px;
+	max-width: 130px;
+}
+.EachCont{
+	display: flex;
+	margin: 5px;
+	
+	
+}
+h4 {
+	text-decoration: underline;
+	font-size: 16px;
+}
+
 #AboutMe {
 	color: black;
 	margin-left: 2px;
+	
 }
 
 nav {
@@ -107,9 +137,12 @@ a:hover {
 }
 
 #Title {
+	margin: 20px 20px 0px 20px;
+	margin-right: 0px;
+	text-align: right;
 	
-	float: right;
-	display: inline-block;
+	
+	
 }
 
 .SideContainer {
@@ -122,24 +155,34 @@ a:hover {
 }
 
 .MainContainer {
-	min-width: 500px;
-	width: 90%;
-	float: left;
+	min-width: 60%;
+	width:90%;
+	
 	margin: auto;
 	background-color: white;
-	box-shadow: 4px 4px 5px black;
+	
 	border-radius: 12px;
 }
-
+.Container2{
+	top: 10px;
+	width: 35%;
+	display: inline-block;
+	vertical-align: top;
+	min-width:30%;
+	margin-left: 0px;
+}
 .WholeContainer {
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	
 }
 
 .MarginMain {
-	margin: 20px
-	
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-top:20px;
+	width: 60%;
+	display: inline-block;
 }
 
 .flex-container {
