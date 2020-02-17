@@ -51,13 +51,13 @@ font-family: Verdana;
 	z-index: 1;
 }
 #gradAst{
-	background-image: linear-gradient(90deg,#A4FF8F,#8FFFF0);
+	background-image: linear-gradient(90deg,#000000,#7304E9);
 }
 #gradTaco{
 	background-image: linear-gradient(90deg,#FBBE0E,#FB470E);
 }
 #gradSOV{
-	background-image: linear-gradient(90deg,#000000,#7304E9);
+		background-image: linear-gradient(90deg,#A4FF8F,#8FFFF0);
 }
 .borderRadBox{
 	border-bottom-right-radius: 200px;
