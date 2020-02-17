@@ -161,7 +161,7 @@ a:hover {
 }
 
 .skillsFlex{
-	margin: auto;
+	display: flex;
 }
 #blackBar {
 	background-color: black;
@@ -247,7 +247,7 @@ a:hover {
 
 .flex-container {
 	display: flex;
-	max-width: 80%;
+	max-width: 100%;
 	min-width: 50%
 }
 
