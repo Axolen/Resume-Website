@@ -4,6 +4,7 @@ body {
 	background-image: url("Images/SpaceBackground.jpg");
 	word-wrap: break-word;
 	font-family: Roboto;
+	min-width: 550px;
 }
 h1 {
 	color: black;
@@ -162,6 +163,7 @@ a:hover {
 
 .skillsFlex{
 	display: flex;
+	min-width: 100px;
 }
 #blackBar {
 	background-color: black;
