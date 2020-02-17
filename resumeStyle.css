@@ -1,8 +1,8 @@
 
 body {
-	background-color: white;
-	background-image: url("Images/SpaceBackground.jpg");
 	
+	background-image: url("Images/SpaceBackground.jpg");
+	word-wrap: break-word;
 	font-family: Roboto;
 }
 h1 {
@@ -28,14 +28,45 @@ color: black;
 font-family: Verdana;
 	font-size: 14px;
 	margin-top: 4px;
+	
 
 }
-ul {
-	color: black;
-	font-size: 14px;
-	margin: 5px;
-	font-family: verdana;
+.marginAsteroid{
+	width: 90%;
 }
+#AsteroidFont{
+	font-size: 40px;
+	color: white;
+	position: relative;
+}
+.gradient{
+	
+    height: 150px;
+	
+	overflow: hidden;
+	width: 100%;
+	margin-top: -127px;
+	
+	z-index: 1;
+}
+#gradAst{
+	background-image: linear-gradient(90deg,#A4FF8F,#8FFFF0);
+}
+#gradTaco{
+	background-image: linear-gradient(90deg,#FBBE0E,#FB470E);
+}
+#gradSOV{
+	background-image: linear-gradient(90deg,#000000,#7304E9);
+}
+.borderRadBox{
+	border-bottom-right-radius: 200px;
+    position: relative;
+    z-index: 1;
+	background: black;
+	padding: 4rem 2rem 1rem;
+	
+}
+
 h3 {
 	color:black;
 	font-size: 18px;
@@ -46,14 +77,17 @@ h3 {
 	margin-top:1px;
 	margin-right: 10px;
 	text-align: top;
-	min-width: 130px;
+	min-width: 122px;
 	max-width: 130px;
 }
 .EachCont{
 	display: flex;
-	margin: 5px;
+	margin: 5px 10px 5px 5px;
 	
 	
+}
+.cardMargin {
+	margin: 10px;
 }
 h4 {
 	text-decoration: underline;
@@ -92,16 +126,53 @@ nav {
 
 
 a {
-	color: red;
+	color: black;
 	font-weight: bold;
+	text-decoration: none;
+	
 }
 
 a:hover {
-	color: grey;
+	color: black;
 }
 
+.topNav {
+	height: 50px;
+	text-align: center;
+	background-color: white;
+	width: 100%;
+	
+}
+.ta-ul{
+	display: flex;
+	align-items: center;
+	
+	margin: 0px 0px 0px 10px;
+	height: 50px;
+}
+.sizeA {
+	padding:16.5px;
+}
+.sizeA:hover {
+	background-color: #C6C6C6;
+	border: 16px;
+	border-color: grey;
+}
+
+.navButtons{
+	
+	
+	
+	
+}
+#blackBar {
+	background-color: black;
+	border: 1px;
+	height: 1px;
+	width: 70%;
+}
 .sidenavi {
-	height: 100%;
+	
 	width: 0;
 	position: fixed;
 	z-index: 1;
@@ -128,18 +199,18 @@ a:hover {
 }
 
 .Cards {
-	
+	margin-right: 10px;
 	display: inline-block;
+	margin-bottom: 0px;
 	padding: 5px;
-	border-color: grey;
-	border-radius: 12px;
-	box-shadow: 3px 3px 8px black;
+	background-color: white;
+	box-shadow: 3px 3px 6px black;
 }
 
 #Title {
 	margin: 20px 20px 0px 20px;
 	margin-right: 0px;
-	text-align: right;
+	float: right;
 	
 	
 	
@@ -155,22 +226,14 @@ a:hover {
 }
 
 .MainContainer {
-	min-width: 60%;
-	width:90%;
 	
-	margin: auto;
+	
+	
 	background-color: white;
 	
-	border-radius: 12px;
+	
 }
-.Container2{
-	top: 10px;
-	width: 35%;
-	display: inline-block;
-	vertical-align: top;
-	min-width:30%;
-	margin-left: 0px;
-}
+
 .WholeContainer {
 	width: 100%;
 	margin: auto;
@@ -178,10 +241,9 @@ a:hover {
 }
 
 .MarginMain {
-	margin-left: 20px;
-	margin-right: 0px;
-	margin-top:20px;
-	width: 60%;
+	
+	margin: 20px 0px 0px 20px;
+	width: 90%;
 	display: inline-block;
 }
 
