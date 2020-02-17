@@ -127,12 +127,12 @@ nav {
 a {
 	color: black;
 	font-weight: bold;
-	text-decoration: none;
+	
 	
 }
 
 a:hover {
-	color: black;
+	color: red;
 }
 
 .topNav {
@@ -151,11 +151,13 @@ a:hover {
 }
 .sizeA {
 	padding:16.5px;
+	text-decoration: none;
 }
 .sizeA:hover {
 	background-color: #C6C6C6;
 	border: 16px;
 	border-color: grey;
+	color: white;
 }
 
 .navButtons{
@@ -207,7 +209,7 @@ a:hover {
 }
 
 #Title {
-	margin: 20px 20px 0px 20px;
+	margin: 5px 5px 5px 20px;
 	margin-right: 0px;
 	float: right;
 	
