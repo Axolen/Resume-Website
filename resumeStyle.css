@@ -70,14 +70,13 @@ font-family: Verdana;
 h3 {
 	color:black;
 	font-size: 18px;
-	margin-right: 10px;
 	margin-top: 1px;
 }
 .MarginH3{
 	margin-top:1px;
 	margin-right: 10px;
 	text-align: top;
-	min-width: 122px;
+	min-width: 129px;
 	max-width: 130px;
 }
 .EachCont{
